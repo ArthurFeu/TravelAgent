@@ -14,7 +14,7 @@ Este projeto envolve a construção de um contêiner Docker que foi transformado
 
 #### Exemplo de uso com .http:
 
-POST http://api-travelagent-1723464635.us-east-2.elb.amazonaws.com
+POST http://api-travelagent-0.us-east-2.elb.amazonaws.com
 Content-Type: application/json
 
 {
