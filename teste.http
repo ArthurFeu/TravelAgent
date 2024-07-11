@@ -1,0 +1,6 @@
+POST http://api-travelagent-1723464635.us-east-2.elb.amazonaws.com
+Content-Type: application/json
+
+{
+	"question": "Vou viajar para Londres em agosto de 2024. Quero que faça um roteiro de viagem para mim com eventos que irão ocorrer na data da viagem e com preço de passagens saindo de São Paulo para Londres. Também quero saber restaurantes, pontos turísticos e eventos culturais que ocorrerão na data da viagem."
+}
