@@ -40,7 +40,7 @@ RESPOSTA:
    - Configure a variável de ambiente `OPEN_API_KEY` com sua chave de API OpenAI.
 
 2. **Endpoints Disponíveis**:
-   - `POST http://api-travelagent-1723464635.us-east-2.elb.amazonaws.com`
+   - `POST http://api-travelagent-0.us-east-2.elb.amazonaws.com` O ENDPOINT FOI ALTERADO PARA EVITAR USO EXCESSIVO DA API E CONSUMO DO GPT. 
    - Payload esperado:
      ```json
      {
