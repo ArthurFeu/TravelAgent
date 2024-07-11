@@ -2,7 +2,7 @@
 
 Este projeto implementa uma API de agente de viagens que utiliza inteligência artificial para fornecer informações detalhadas sobre viagens. Ele utiliza a linguagem natural para compreender e responder a consultas dos usuários, incluindo eventos, preços de passagens, pontos turísticos, restaurantes recomendados e dicas extras.
 
-Este projeto envolve a construção de um contêiner Docker que foi transformado em uma API disponível na AWS. A integração inclui modelos de Linguagem de Longa Memória (LLM), como o GPT-3.5 Turbo, que foram aprimorados com dados do Wikipedia, DuckDuckGo e outros recursos específicos da web. Essa implementação não só demonstra um caso de uso para agentes de viagens, mas também destaca a flexibilidade do modelo, permitindo adaptações para uma ampla gama de aplicações através da configuração de padrões e parâmetros adequados.
+Este projeto envolve a construção de um contêiner Docker que foi transformado em uma API disponível na AWS. A integração inclui Large Language Models (LLM), como o GPT-3.5 Turbo, que foram aprimorados com dados do Wikipedia, DuckDuckGo e outros recursos específicos da web. Essa implementação não só demonstra um caso de uso para agentes de viagens, mas também destaca a flexibilidade do modelo, permitindo adaptações para uma ampla gama de aplicações através da configuração de padrões e parâmetros adequados.
 
 #### Funções Principais:
 
@@ -10,7 +10,6 @@ Este projeto envolve a construção de um contêiner Docker que foi transformado
 - **Agent Executor**: Orquestração de agentes de pesquisa e geração de respostas utilizando ferramentas de busca e Wikipedia.
 - **RAG Agent**: Utiliza a técnica de Retrieval-Augmented Generation para compor respostas baseadas em contexto e documentos relevantes.
 - **WebBaseLoader**: Carrega e processa documentos da web para enriquecer o conhecimento do agente.
-- **Chroma Vector Store**: Armazena vetores de documentos para recuperação eficiente de informações relevantes.
 - **Lambda Function**: Implementação de uma função AWS Lambda para servir como endpoint da API.
 
 #### Exemplo de uso com .http:
