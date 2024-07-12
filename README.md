@@ -1,6 +1,7 @@
 ### Travel Agent API
 
 Exemplo de uso com interface gráfica feita em React: https://youtu.be/SgTvHN9DuGc
+Link para interface gráfica que consome a API: https://github.com/ArthurFeu/TravelAgentReactApp
 
 Este projeto implementa uma API de agente de viagens que utiliza inteligência artificial para fornecer informações detalhadas sobre viagens. Ele utiliza a linguagem natural para compreender e responder a consultas dos usuários, incluindo eventos, preços de passagens, pontos turísticos, restaurantes recomendados e dicas extras.
 
